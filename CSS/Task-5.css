@@ -1,0 +1,49 @@
+body
+{
+    background-color: #c2d025;
+}
+
+.container 
+{
+    display: flex;
+    align-items: center;
+}
+
+.navbar 
+{
+    list-style-type: none;
+    padding: 0;
+    background: linear-gradient(to right, rgb(255, 255, 255) 85%, black 15%);
+    width: 150px;
+}
+
+.navbar a 
+{   
+    display: block;
+    color: rgb(51, 0, 255);
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover 
+{
+    background: rgb(255, 255, 255)
+}
+
+.content 
+{
+    flex: 1;
+    padding: 20px;
+}
+
+h1, p, hr
+{
+    color: maroon;
+}
+
+.footer
+{
+    font-style: italic;
+}
+

@@ -1,0 +1,50 @@
+#bg
+{
+    background-color: rgb(156, 56, 105);
+    width: 1000px;
+    height: 575px;
+    position: relative;
+}
+
+#bg2
+{
+    background-color: rgb(105, 34, 68);
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+form
+{
+    color: aliceblue;
+}
+
+table
+{
+    border: none;
+    font-size: larger;
+    border-spacing: 15px;
+}
+
+.btn
+{
+    width: 380px;
+    height: 35px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}

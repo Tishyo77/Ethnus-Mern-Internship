@@ -1,0 +1,65 @@
+.navbar 
+{
+    list-style-type: none;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.navbar a 
+{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: width 0.3s ease; 
+    width: 40px;
+    height: 20px;
+    border-radius: 0 7px 7px 0;
+}
+
+.navbar a span 
+{
+    display: none; 
+}
+
+.navbar a:hover 
+{
+    width: 100px; 
+}
+
+.navbar a:hover span 
+{
+    display: inline-block;
+}
+
+.container 
+{
+    display: flex;
+    align-items: center;
+}
+
+.content 
+{
+    flex: 1;
+    padding: 20px;
+}
+
+.home
+{
+    background-color: rgb(42, 159, 42);
+}
+.css
+{
+    background-color: rgb(79, 79, 255);
+}
+.html
+{
+    background-color: rgb(255, 88, 88);
+}
+.bs
+{
+    background-color: rgb(77, 77, 77);
+}

@@ -1,0 +1,13 @@
+table
+{
+    background-color: rgb(81, 174, 143);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+td, th 
+{
+    width: 300px; 
+    border-radius: 20px;
+    border: 1px solid black;
+}
